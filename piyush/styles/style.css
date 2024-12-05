@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.navtab {
+  background-color: #f0f8ff;
+  color: #075e54;
+}
+.navtab ul li a {
+  color: #075e54;
+}
+.navtab .home-section {
+  background-color: #f9f9f9;
+  padding: 5rem 0;
+  text-align: center;
+}
+.navtab .home-section h2 {
+  font-size: 3rem;
+  color: #128c7e;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+.navtab .home-section p {
+  font-size: 1.25rem;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+}
+
+.current-section {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #075e54; /* Dark green text */
+}
+.current-section .card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.current-section .card-title {
+  color: #128c7e; /* WhatsApp green for project title */
+  font-weight: bold;
+}
+.current-section .card-body {
+  background-color: #f8f9fa; /* Light gray background for card content */
+}
+.current-section .btn-primary {
+  background-color: #128c7e; /* WhatsApp green for button */
+  border: none;
+}
+.current-section .btn-primary:hover {
+  background-color: #075e54; /* Darker green on hover */
+}
+.current-section .container {
+  max-width: 1200px;
+}
+.current-section .text-center {
+  font-size: 2rem;
+  color: #128c7e;
+}
+
+.footer {
+  background-color: #075e54; /* Dark green for footer */
+  color: #fff;
+}
+.footer .social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer .social-links a:hover {
+  color: #128c7e;
+}
+.footer p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 15px;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .text-center {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
